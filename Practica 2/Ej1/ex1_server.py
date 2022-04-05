@@ -4,11 +4,11 @@ import math
 import re
 def f(x):
     return math.sqrt(1-math.pow(x,2))
-    
+ 
 def main(host, port):
     s_server = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
     s_server.bind((host,int(port)))
-    below_counter = 0
+    
     while True:
         msg,addr = s_server.recvfrom(1024)
         data = msg.decode("utf-8")
