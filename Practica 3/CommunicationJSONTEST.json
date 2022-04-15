@@ -1,0 +1,40 @@
+{
+  "rooms": [
+    {
+      "roomId": 5,
+      "capacity": 217,
+      "resources": [
+        "proyector",
+        "altavoces",
+        "puntero l\u00e1ser"
+      ]
+    },
+    {
+      "roomId": 217,
+      "capacity": 229,
+      "resources": [
+        "cable",
+        "monitor"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "DNI": "22334455A",
+      "userName": "userSD",
+      "password": "passwordSD45"
+    }
+  ],
+  "booking": [
+    {
+      "bookingId": 1,
+      "DNI": "22334455A",
+      "date": "05/04/2022",
+      "startTime": "10: 30",
+      "duration": 160,
+      "endTime": "13: 00"
+    }
+  ],
+  "errorMessage": "No existe el identificador de la reserva",
+  "message": "Reserva eliminada"
+}
