@@ -1,5 +1,5 @@
 import json
-from requests import post
+import requests
 with open('CommunicationJSON.json') as f:
     database = json.load(f)
 
@@ -9,7 +9,7 @@ class Room:
         self.capacity = capacity
         self.resources = resources
 
-data = {"roomId": 5,"capacity":229,"resources":["cable","monitor"]}
+data = {"roomId": 23,"capacity":229,"resources":["cable","monitor"]}
 roomId = data["roomId"]
 capacity = data["capacity"]
 resources = data["resources"]
@@ -20,6 +20,8 @@ room = Room(roomId,capacity,resources)
 dict_to_parse = {"roomId": roomId,"capacity": capacity,"resources":resources}
 database["rooms"].append(dict_to_parse)
     
+lista = str(input()).split(" ")
+print (lista)
 with open ('CommunicationJSONTEST.json','w') as f:
     json.dump(database,f,indent=2)
 

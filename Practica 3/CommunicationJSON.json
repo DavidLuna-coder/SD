@@ -1,33 +1,47 @@
 {
-    "rooms": [
-        {
-            "roomId": 5,
-            "capacity": 217,
-            "resources": [
-                "proyector",
-                "altavoces",
-                "puntero láser"
-            ]
-        }
-    ],
-    "users": [
-        {
-            "DNI": "22334455A",
-            "userName": "userSD",
-            "password": "passwordSD45"
-        }
-    ],
-    
-    "booking": [
-        {
-            "bookingId": 1,
-            "DNI": "22334455A",
-            "date": "05/04/2022",
-            "startTime": "10: 30",
-            "duration": 160,
-            "endTime": "13: 00"
-        }
-    ],
-    "errorMessage": "No existe el identificador de la reserva",
-    "message": "Reserva eliminada"
+  "rooms": [
+    {
+      "roomId": 5,
+      "capacity": 217,
+      "resources": [
+        "proyector",
+        "altavoces",
+        "puntero"
+      ]
+    },
+    {
+      "roomId": 67,
+      "capacity": 12,
+      "resources": [
+        "cosa1",
+        "cosa2"
+      ]
+    },
+    {
+      "roomId": 54,
+      "capacity": 53,
+      "resources": [
+        "uwu"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "DNI": "22334455A",
+      "userName": "userSD",
+      "password": "passwordSD45"
+    }
+  ],
+  "booking": [
+    {
+      "bookingId": 1,
+      "DNI": "22334455A",
+      "date": "05/04/2022",
+      "startTime": "10: 30",
+      "duration": 160,
+      "endTime": "13: 00"
+    }
+  ],
+  "errorMessage": "No existe el identificador de la reserva",
+  "message": "Reserva eliminada"
 }
