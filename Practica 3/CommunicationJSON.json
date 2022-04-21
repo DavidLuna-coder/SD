@@ -13,15 +13,15 @@
       "roomId": 67,
       "capacity": 12,
       "resources": [
-        "cosa1",
-        "cosa2"
+        "silla",
+        "mesa"
       ]
     },
     {
       "roomId": 54,
       "capacity": 53,
       "resources": [
-        "uwu"
+        "cama"
       ]
     }
   ],
@@ -30,18 +30,22 @@
       "DNI": "22334455A",
       "userName": "userSD",
       "password": "passwordSD45"
+    },
+    {
+      "DNI": "42345549B",
+      "userName": "David",
+      "password": "Luna"
     }
   ],
   "booking": [
     {
       "bookingId": 1,
+      "roomId": 5,
       "DNI": "22334455A",
       "date": "05/04/2022",
-      "startTime": "10: 30",
-      "duration": 160,
-      "endTime": "13: 00"
+      "startTime": "10:30",
+      "endTime": "13:00"
     }
-  ],
-  "errorMessage": "No existe el identificador de la reserva",
-  "message": "Reserva eliminada"
+  ]
+
 }
